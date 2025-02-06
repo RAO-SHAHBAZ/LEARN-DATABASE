@@ -18,15 +18,15 @@ function App() {
   }
 
   return (
-    <>
-    
+    <> 
    <div className='flex justify-center flex-col  items-center mt-3'>
-   <Button  variant='destructive' onClick={putData} >
+      <Button  variant='destructive' onClick={putData} >
       JUST PUT DATA IN FIREBASE
     </Button>
- 
+    <Button >
+      We Have Succefully Connected With Firebae
+    </Button>
    </div>
-    
     </>
   )
 }
